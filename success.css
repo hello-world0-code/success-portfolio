@@ -1,0 +1,190 @@
+body {
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+        
+       
+        .bg-dark-green {
+            background-color: #015520;
+        }
+        .text-primary-green {
+            color: #25d07d;
+        }
+        .bg-light-army {
+            background-color: #f0f2e8; 
+        }
+        .border-primary-green {
+            border-color: #25d07d !important;
+        }
+        
+        
+        .navbar {
+            background-color: #015520;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .navbar-brand {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: white;
+            font-size: 24px;
+        }
+        
+        .nav-link {
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 500;
+            margin-left: 15px;
+        }
+        
+        .nav-link:hover {
+            color: #25d07d;
+        }
+
+        
+        .hero-section {
+            padding: 80px 0;
+            color: white;
+            background: linear-gradient(to right, #015520, #0a3428);
+        }
+        
+        .profile-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #25d07d;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .lead{
+            color: black;
+            font-weight: 700px;
+        }
+        
+        .hero-title {
+            font-size: 48px;
+            font-weight: 800px;
+            margin-bottom: 10px;
+            color: black;
+        }
+        
+        .hero-subtitle {
+            font-size: 24px;
+            font-weight: 300;
+            color: #25d07d;
+            margin-bottom: 20px;
+        }
+        
+        .social-icons a {
+            color: white;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+        
+        .social-icons a:hover {
+            color: #25d07d;
+        }
+        
+       
+        .section-title {
+            font-size: 40px;
+            font-weight: 700;
+            color: #015520;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #25d07d;
+            display: inline-block;
+        }
+        
+        
+        .research-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            height: 100%;
+            border-left: 5px solid #25d07d;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .research-icon {
+            font-size: 40px;
+            color: #25d07d;
+            margin-bottom: 15px;
+        }
+        
+       
+        .publication-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 4px solid #8A9A5B;
+        }
+        
+        .publication-year {
+            background-color: #8A9A5B;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        
+        
+        
+        .timeline-item {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        .timeline-dot {
+            position: absolute;
+            left: -39px;
+            top: 5px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #25d07d;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #8A9A5B;
+        }
+        
+      
+        .contact-form {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .form-control:focus {
+            border-color: #25d07d;
+        }
+        
+        .btn-primary-custom {
+            background-color: #25d07d;
+            border-color: #25d07d;
+            color: #015520;
+            font-weight: 600;
+            padding: 10px 25px;
+        }
+        
+        .btn-primary-custom:hover {
+            background-color: #015520;
+            border-color: #015520;
+            color: white;
+        }
+        
+       
+        footer {
+            background-color: #015520;
+            color: white;
+            padding: 30px 0;
+        }
